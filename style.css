@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  position: relative;
+  top: 50px;
+  left: 32%;
+}
+
+.box {
+  width: 500px;
+  height: 200px;
+  margin: 0% auto;
+}
+
+.main h3 {
+  text-align: center;
+  padding-left: 23%;
+  font-size: 25px;
+  color: #8B322C;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.box input {
+  width: 496px;
+  height: 40px;
+  border: none;
+  border: 2px solid #265c6f;
+  border-bottom: none;
+  background-color: #8dcfe7;
+
+}
+
+.btn2 {
+  border: none;
+  width: 35px;
+  float: right;
+  padding-left: 14px;
+  background: none;
+}
+
+.box #content {
+  width: 496px;
+  height: 118px;
+  background-color: #4793A8;
+  border: 2px solid #265c6f;
+  background-image: url(image/backgroud.jpg);
+  background-size: cover;
+  background-position: center;
+  resize: none;
+  display: flex;
+  row-gap: 0;
+}
+
+.box .note-control {
+  display: flex;
+  justify-content: flex-start;
+  gap: 7%;
+  width: 496px;
+  height: 30px;
+  border: 2px solid #265c6f;
+  border-top: none;
+  background-color: #8dcfe7;
+  padding-top: 7px;
+}
+
+.note-control button {
+  width: 30px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  background: none;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: #8B322C;
+
+}
+
+#bold {
+  font-weight: bold;
+}
+
+#italic {
+  font-style: italic;
+}
+
+#underline {
+  text-decoration: underline;
+}
+
+#lineThrough {
+  text-decoration-line: overline;
+}
+
+.button {
+  width: 150px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button i {
+  font-size: 14px;
+  margin-left: 3px;
+  /*box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;*/
+}
+
+.second_section h1 {
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-weight: bold;
+}
+
+.second_section p {
+  text-align: center;
+  display: flex;
+  font-family: "Lugrasimo", cursive;
+  font-weight: 400;
+  justify-content: space-around;
+  margin: 19px 9px;
+}
+
+.second_section {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+  gap: 25px;
+  font-size: 18px;
+
+}
+
+#note {
+  position: absolute;
+  right: 40%;
+  bottom: 10%;
+}
+
+.second_section {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+/*---------card-----------*/
+.card {
+  width: 180px;
+  height: 160px;
+  border: 1px solid #265c6f;
+  border-radius: 10px;
+  border-bottom-right-radius: 70px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-image: url(image/cartoon.png);
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: soft-light;
+
+}
+
+.card:hover {
+  transform: scale(1.05);
+  /*background-image: url(image/cartoon.png);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: soft-light;*/
+}
+
+/*responsive for all screen type...*/
+
+@media screen and (max-width: 1050px) {
+  .main img {
+    left: 28%;
+  }
+
+  .main h3 {
+    text-align: right;
+    margin-right: 28%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main img {
+    left: 28%;
+  }
+
+  .main h3 {
+    text-align: right;
+    margin-right: 28%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main img {
+    display: none;
+  }
+
+  .main h3 {
+    display: flex;
+    text-align: center;
+    padding-left: 40%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+
+  .main h3 {
+    text-align: center;
+    font-size: 20px;
+  margin-top: 60px;
+  }
+  .box {
+    width: 450px;
+    height: 200px;
+    margin: auto;
+  }
+
+}
+@media screen and (max-width: 480px) {
+
+  .main h3 {
+    text-align: center;
+    font-size: 18px;
+  margin-top: 50px;
+  }
+  .box {
+    width: 400px;
+    height: 200px;
+    margin: auto;
+  }
+  
+.box input {
+  width: 398px;
+  height: 40px;
+
+}
+
+.box #content {
+  width: 398px;
+  height: 118px;
+}
+
+.box .note-control {
+  gap: 5%;
+  width: 398px;
+  height: 30px;
+}
+
+}
+@media screen and (max-width: 320px) {
+
+  .main h3 {
+    text-align: center;
+    font-size: 12px;
+  margin-top: 30px;
+  }
+  .box {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+  }
+  
+.box input {
+  width: 295px;
+  height: 40px;
+
+}
+
+.box #content {
+  width: 295px;
+  height: 118px;
+}
+
+.box .note-control {
+  gap: 3%;
+  width: 295px;
+  height: 30px;
+}
+.note-control button {
+  width: 20px;
+  border: none;
+  font-size: 13px;
+}
+.button1 {
+  margin-top: 5%;
+  gap: 17px;
+  font-size: 15px;
+
+}
+
+}

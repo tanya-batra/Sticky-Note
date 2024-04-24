@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap" rel="stylesheet">
+ 
+</head>
+
+<body>
+    <div class="main">
+        <img src="image/cartoon.png" width="70px" alt="cartoon">
+        <h3>Sticky Notes 📝</h3>
+
+
+        <div class="first-section">
+            <div class="box" >
+                <input type="text" id="title" placeholder="Add a Title" ><br>
+                <textarea name="text" id="content" cols="15" rows="7" placeholder="Add your Content....."  >
+                   </textarea>
+            <div class="note-control" >  
+                    <button type="button"  onclick="font1()" class="note-controls" id="capitalize">Aa</button>
+                    <button  type="button"  onclick="font2()" class="note-controls" id="bold">B</button>
+                    <button  type="button"  onclick="font3()" class="note-controls" id="italic">I</button>
+                    <button  type="button"  onclick="font4()" class="note-controls" id="underline">U</button>
+                    <button  type="button"  onclick="font5()" class="note-controls" id="lineThrough">ab</button>
+                    <button type="button" onclick="font6()" class="note-controls" ><i class="fa-solid fa-trash"></i></button>
+                       <div class="button"> Add A Note 
+                    <i class="fa-sharp fa-solid fa-plus" id="icon"></i>
+        </div></div>
+                <br>
+
+
+            </div>
+            <div class="button1">
+                <label for="color">BG Color</label>
+                <input type="color" id="color" value="#8dcfe7">
+                
+                <label for="color">Text Color</label>
+                <input type="color" id="textcolor" value="#000000">
+            </div>
+
+            <h2 style="color:#8B322C ;font-family:cursive;text-align: center; margin:15px 0;"> ✦ Your Notes ..✦</h2>
+
+            <br><br>
+    <h2 id="note">No Note Is Added Yet..!</h2>
+    <div class="second_section" >
+            <!--- <div class="card" >
+                <h1></h1>
+                <p></p>
+                   
+            </div>-->
+
+            </div>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
